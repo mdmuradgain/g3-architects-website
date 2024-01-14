@@ -18,6 +18,12 @@
 .text_light_gray {
   color: #727272;
 }
+.section_tittle {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #131313;
+}
+
 /* Header Styles */
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -30,11 +36,6 @@ nav {
 }
 nav > ul {
   display: flex;
-}
-.nav_tittle {
-  font-size: 3rem;
-  font-weight: 700;
-  color: #131313;
 }
 nav li {
   list-style: none;
