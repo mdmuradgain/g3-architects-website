@@ -165,7 +165,8 @@ main {
   nav,
   .teams_container,
   .fact_card_container,
-  .sponser_img_container {
+  .sponser_img_container,
+  .features {
     flex-direction: column;
   }
   .teams_img_container {
@@ -178,6 +179,9 @@ main {
   }
   .fact_card_container {
     gap: 10px;
+  }
+  .fiture_img img{
+    width: 100%;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 960px) {
